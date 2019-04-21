@@ -31,7 +31,7 @@ siz = 10
 # generates a population of N individuals with S number of instructions each one
 pop_i = pop_generator(population, num_instruct)
 # implements the genetic algorithm
-[evaluation_last, best_results, average, worst, best_indiv] = gen_algot(pop_i, w, Robby, generations, 0.3)
+[evaluation_last, best_results, average, worst, best_indiv] = gen_algot(pop_i, w, Robby, generations, 0.7)
 
 # ========================FIGURES========================
 

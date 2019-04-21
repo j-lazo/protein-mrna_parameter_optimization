@@ -14,7 +14,12 @@ def Robby(path, u):
 
     """
     This is the function which evaluates how good each individual performs and it follow the next rules:
-    The initial point is always at the cell (0,0)
+    * The initial point is always at the cell (0,0).
+    * Robby can move up, down right or left inside the board
+    * If it moves out of the boundaries it is penalized with -1 point
+    * It can also pick bottles in the ground
+    * If it decides to pick up in a cell where there is nothing it gets penalized with -5 points
+    * If it picks up in a cell where there is a bottle it is rewarded with +50 points
 
     :param path: the list of instructions of each individual
     :param u:
@@ -124,7 +129,7 @@ def gen_algot(init_pop, fx, fit_func, generations, mutation_r):
         best_performance.append(min(evaluation))
         worst_performance.append(max(evaluation))
         average_performance.append(np.mean(evaluation))
-        best_indivdual.append(init_pop[evaluation.index(min(evaluation))])
+        best_indivdual.append(init_pop[evaluation.index(max(evaluation))])
 
         # ================= reproduction =====================================
         n = 0
@@ -276,9 +281,9 @@ def visualzation(string, obstacles, l):
 
         plt.plot(points_x, points_y, '*r')
         plt.pause(0.01)
-        plt.axis([0, l, 0, l])
         plt.clf()
 
+    plt.axis([0, l, 0, l])
     plt.show()
 
 
