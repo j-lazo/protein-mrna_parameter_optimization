@@ -4,6 +4,6 @@ This projects fits the parameters of the regulatory network showed in the next f
 
 ![system](system.png)
 
-and the equation syste proposed is:
+The equation system proposed is:
 
 ![equations](eqn_syst.png)
