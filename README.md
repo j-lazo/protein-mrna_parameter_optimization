@@ -16,10 +16,10 @@ The Experimental data that needs to be fit is as shown in the figures bellow:
 When *mD* is not considered
 
 
-![Experimental_3(results/Experimental_3.png)
+![Experimental_2](results/Experimental_2.png)
 
 When *mD* is considered
 
-![Experimental_3](results/Experimental_4.png)
+![Experimental_3](results/Experimental_3.png)
 
 Overexpression mutants, transcription.
