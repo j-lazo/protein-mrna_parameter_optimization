@@ -8,11 +8,13 @@ The equation system proposed is:
 
 ![equations](eqn_syst.png)
 
-The Experimental data that needs to be fit is as shown in the figures bellow:
 
 To solve it simmulated annealing and genetic algorithms were applied. An example of genetic algorithms can be found ![here](https://github.com/j-lazo/genetic_algoritm_example).
 
 ## Data
+
+The Experimental data that needs to be fit is shown in the figures bellow:
+
 
 ![Experimental_1](results/Experimental_1.png)
 
