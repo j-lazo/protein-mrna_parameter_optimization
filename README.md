@@ -12,6 +12,7 @@ The Experimental data that needs to be fit is as shown in the figures bellow:
 
 To solve it simmulated annealing and genetic algorithms were applied. An example of genetic algorithms can be found here.
 
+## Data
 
 ![Experimental_1](results/Experimental_1.png)
 
@@ -25,6 +26,8 @@ When *mD* is considered
 ![Experimental_3](results/Experimental_3.png)
 
 Overexpression mutants, transcription.
+
+## Results
 
 Using simulated annealing the results obtained are as follows:
 
