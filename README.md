@@ -10,7 +10,7 @@ The equation system proposed is:
 
 The Experimental data that needs to be fit is as shown in the figures bellow:
 
-To solve it simmulated annealing and genetic algorithms were applied. An example of genetic algorithms can be found here.
+To solve it simmulated annealing and genetic algorithms were applied. An example of genetic algorithms can be found ![here](https://github.com/j-lazo/genetic_algoritm_example).
 
 ## Data
 
